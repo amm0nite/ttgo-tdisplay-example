@@ -1,5 +1,5 @@
 # TTGO T DISPLAY Example
-Sort of Hello World for "TTGO T Display" ESP32 board. This example uses the arduino framework and is made with Platform.io.
+Sort of Hello World for the "TTGO T Display" ESP32 board. This example uses the arduino framework and is made with Platform.io.
 
 The code in `main.cpp` connects to your Wifi, setups NTP to get the date and time, and then prints it on the board display.
 
