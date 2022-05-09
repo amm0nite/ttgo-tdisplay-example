@@ -6,7 +6,7 @@
 // bug vscode
 int _EXFUN(setenv, (const char *__string, const char *__value, int __overwrite));
 
-#define WIFI_TIMEOUT 2000  // WiFi connection timeout (ms)
+#define WIFI_TIMEOUT 5000  // WiFi connection timeout (ms)
 
 const char *ssid = CREDENTIALS_SSID;
 const char *password = CREDENTIALS_PASSWORD;
