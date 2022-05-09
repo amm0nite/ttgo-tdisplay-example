@@ -3,9 +3,6 @@
 #include <credentials.h>
 #include <string>
 
-// bug vscode
-int _EXFUN(setenv, (const char *__string, const char *__value, int __overwrite));
-
 #define WIFI_TIMEOUT 5000  // WiFi connection timeout (ms)
 
 const char *ssid = CREDENTIALS_SSID;
